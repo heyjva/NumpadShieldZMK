@@ -3,9 +3,11 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    keymap {
+    keymap0: keymap {
         compatible = "zmk,keymap";
-        default {
+        
+        default_layer {
+            display-name = "default layer";
             bindings = <
                 &kp KP_NUM &kp KP_EQUAL &kp KP_SLASH &kp KP_DEL
                 &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_MULTIPLY
