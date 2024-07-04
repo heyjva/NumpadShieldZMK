@@ -1,0 +1,8 @@
+file_format: "1"
+id: name
+name: name
+type: shield
+url: num
+requires: [pro_micro]
+features:
+  - keys
