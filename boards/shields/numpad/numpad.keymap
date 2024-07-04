@@ -4,12 +4,15 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#define L1 0
+#define L2 1
+
 / {
     keymap0: keymap {
         compatible = "zmk,keymap";
         
         default_layer {
-            display-name = "default layer";
+            label = "L1";
             bindings = <
                 &kp KP_NUM &kp EQUAL &kp KP_DIVIDE &mo 1
                 &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_MULTIPLY
@@ -19,7 +22,7 @@
             >;
         };
         fn_layer {
-            display-name = "fn layer";
+            label = "L2";
             bindings = <
                 &trans &trans &out OUT_TOG &trans
                 &trans &trans &trans &trans
