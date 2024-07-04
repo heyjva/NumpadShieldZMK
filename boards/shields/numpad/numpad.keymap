@@ -16,5 +16,5 @@
                 &kp KP_N0             &kp KP_DOT  &kp KP_ENTER
             >;
         };
-    }
+    };
 };
