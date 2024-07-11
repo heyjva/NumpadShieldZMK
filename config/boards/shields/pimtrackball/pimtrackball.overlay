@@ -27,8 +27,8 @@
 		label = "TRACKBALL_PIM447";
 		
 		//move-factor = <1>;      // Increase pointer velocity (default: 1); used by cdc-mkb branch 
-		move-factor-x = <200>;	// used by voidyourwarranty branch, default 100
-		move-factor-y = <200>;	// used by voidyourwarranty branch, default 100
+		move-factor-x = <100>;	// used by voidyourwarranty branch, default 100
+		move-factor-y = <100>;	// used by voidyourwarranty branch, default 100
 		move-inertia-x = <1>;	// used by voidyourwarranty branch, default 0
 		move-inertia-y = <1>;	// used by voidyourwarranty branch, default 0
 		invert-move-x;          // Invert pointer X axis (left is right, and vice versa)
