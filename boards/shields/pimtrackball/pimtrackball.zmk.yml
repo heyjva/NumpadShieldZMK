@@ -1,0 +1,10 @@
+file_format: "1"
+id: pimtrackball
+name: Pimoroni Trackball
+type: shield
+url: https://github.com/jgreel/wearable_cirque_pim447
+requires:
+  - seeeduino_xiao_ble
+  - pimoroni trackball_pim447
+features:
+  - mouse
