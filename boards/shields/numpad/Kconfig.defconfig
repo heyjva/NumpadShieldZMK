@@ -3,4 +3,7 @@ if SHIELD_NUMPAD
 config ZMK_KEYBOARD_NAME
     default "Numpad"
 
+config ZMK_MOUSE
+    default y
+
 endif
