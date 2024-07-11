@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: jgreel
-      url-base: https://github.com/jgreel
+    - name: voidyourwarranty
+      url-base: https://gitlab.com/voidyourwarranty
   projects:
     - name: zmk
-      remote: jgreel
-      revision: main
+      remote: voidyourwarranty
+      revision: devel-pim447
       import: app/west.yml
   self:
     path: config
