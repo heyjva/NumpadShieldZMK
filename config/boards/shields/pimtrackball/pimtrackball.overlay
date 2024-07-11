@@ -33,8 +33,8 @@
 		move-inertia-y = <1>;	// used by voidyourwarranty branch, default 0
 		//invert-move-x;          // Invert pointer X axis (left is right, and vice versa)
 		//invert-move-y;          // Invert pointer Y axis (up is down, and vice versa)
-		button = <2>;           // Send right-click when pressing the ball (default: 0 = left click, 1 = right click, 2 = middle click?)
-		//swap-axes;              // Swap X and Y axes (horizontal is vertical, and vice versa)
+		button = <0>;           // Send right-click when pressing the ball (default: 0 = left click, 1 = right click, 2 = middle click?)
+		swap-axes;              // Swap X and Y axes (horizontal is vertical, and vice versa)
 		//poll-interval = <50>;	//used by voidyourwarranty branch, default 50
 		//scroll-divisor = <1>;   // Increase wheel velocity (default: 2); used by cdc-mkb branch
 		scroll-divisor-x = <2>;	// Increase wheel velocity (default: 2); used by voidyourwarranty branch 
