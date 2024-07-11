@@ -7,3 +7,10 @@ config ZMK_MOUSE
     default y
 
 endif
+
+if SHIELD_PIMTRACKBALL
+
+config ZMK_SPLIT
+    default y
+
+endif
