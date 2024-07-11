@@ -6,6 +6,10 @@ config ZMK_KEYBOARD_NAME
 config ZMK_MOUSE
     default y
 
+config ZMK_TRACKBALL_PIM447
+
+    default y
+
 endif
 
 if SHIELD_PIMTRACKBALL
