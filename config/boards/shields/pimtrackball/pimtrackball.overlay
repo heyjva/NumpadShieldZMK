@@ -31,7 +31,7 @@
 		move-factor-y = <200>;	// used by voidyourwarranty branch, default 100
 		move-inertia-x = <1>;	// used by voidyourwarranty branch, default 0
 		move-inertia-y = <1>;	// used by voidyourwarranty branch, default 0
-		//invert-move-x;          // Invert pointer X axis (left is right, and vice versa)
+		invert-move-x;          // Invert pointer X axis (left is right, and vice versa)
 		//invert-move-y;          // Invert pointer Y axis (up is down, and vice versa)
 		button = <0>;           // Send right-click when pressing the ball (default: 0 = left click, 1 = right click, 2 = middle click?)
 		swap-axes;              // Swap X and Y axes (horizontal is vertical, and vice versa)
