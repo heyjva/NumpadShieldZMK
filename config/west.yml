@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: voidyourwarranty
       url-base: https://gitlab.com/voidyourwarranty
-      */  projects:
+  projects:
     - name: zmk-yackboard-3.2
       remote: voidyourwarranty
       revision: devel-pim447
