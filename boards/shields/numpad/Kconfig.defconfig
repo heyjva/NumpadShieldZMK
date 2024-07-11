@@ -12,12 +12,12 @@ config ZMK_TRACKBALL_PIM447
 
 endif
 
-if SHIELD_PIMTRACKBALL
+//if SHIELD_PIMTRACKBALL
 
-config ZMK_SPLIT
-    default y
+//config ZMK_SPLIT
+ //   default y
 
-config I2C
-  default y
+// config I2C
+//  default y
 
-endif
+// endif
