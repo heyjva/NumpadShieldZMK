@@ -20,7 +20,7 @@
                 &kp KP_NUM &kp KP_DIVIDE &kp KP_MULTIPLY &mo 1
                 &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp DEL
                 &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_MINUS
-                &mmv MOVE_LEFT &mmv MOVE_UP &mmv MOVE_DOWN &mmv MOVE_RIGHT //&kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_PLUS
+                U_MS_L          U_MS_D          U_MS_U          U_MS_R //&kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_PLUS
                 &kp KP_N0             &kp KP_DOT  &kp KP_ENTER
             >;
         };
