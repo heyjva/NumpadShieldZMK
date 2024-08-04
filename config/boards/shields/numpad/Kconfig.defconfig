@@ -9,4 +9,10 @@ config ZMK_MOUSE
 config I2C
     default y
 
+config INPUT
+    default y
+
+config INPUT_PINNACLE
+    default y
+
 endif
